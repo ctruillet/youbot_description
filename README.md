@@ -36,9 +36,11 @@ This Youbot robot is a modified version of the [Youbot](http://www.youbot-store.
 
 
 ## Launch
-``cd youbot_description``
-``colcon build``
-``ros2 launch youbot_description view_robot_launch.py``
+```sh
+cd youbot_description
+colcon build
+ros2 launch youbot_description view_robot_launch.py
+```
 
 
 
