@@ -1,0 +1,8 @@
+source;share/lesson_urdf/hook/cmake_prefix_path.ps1
+source;share/lesson_urdf/hook/cmake_prefix_path.dsv
+source;share/lesson_urdf/hook/cmake_prefix_path.sh
+source;share/lesson_urdf/local_setup.bash
+source;share/lesson_urdf/local_setup.dsv
+source;share/lesson_urdf/local_setup.ps1
+source;share/lesson_urdf/local_setup.sh
+source;share/lesson_urdf/local_setup.zsh

@@ -1,0 +1,104 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ctruillet/youbot_description/build/youbot_description
+-- Install configuration: ""
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/launch
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/launch/view_robot_launch.py
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/rviz
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/rviz/view.rviz
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/urdf
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/urdf/youbot.urdf
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_plate
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_plate/plate.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_plate/plate_convex.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_base
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_base/front-right_wheel.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_base/base_convex.stl
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_base/back-left_wheel.dae:Zone.Identifier
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_base/back-right_wheel.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_base/base_convex.stl:Zone.Identifier
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_base/front-right_wheel.dae:Zone.Identifier
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_base/base_frame.dae:Zone.Identifier
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_base/front-left_wheel.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_base/base.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_base/back-right_wheel.dae:Zone.Identifier
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_base/front-left_wheel.dae:Zone.Identifier
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_base/base_frame.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_base/base_convex.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_base/back-left_wheel.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/sensors
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/sensors/hokuyo.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/sensors/microsoft_lifecam.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/sensors/asus_xtion_pro_live_base.png
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/sensors/asus_xtion_pro_live_camera.png
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/sensors/asus_xtion_pro_live_camera.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/sensors/asus_xtion_pro_live_base.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/sensors/hokuyo_convex.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/sensors/kinect.tga
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/sensors/kinect.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_gripper
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_gripper/palm.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_gripper/finger_convex.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_gripper/finger.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_gripper/palm_convex.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm2.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm4_convex.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm3.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm_joint_4_convex.stl:Zone.Identifier
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm0_convex.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm_joint_4_convex.stl
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm0.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm5_convex.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm3_convex.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm4.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm_joint_1_convex.stl:Zone.Identifier
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm0_convex.stl:Zone.Identifier
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm_joint_5_convex.stl
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm2_convex.stl:Zone.Identifier
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm_joint_2_convex.stl
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm1.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm1_convex.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm_joint_5_convex.stl:Zone.Identifier
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm_joint_1_convex.stl
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm0_convex.stl
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm_joint_2_convex.stl:Zone.Identifier
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm5.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm_joint_3_convex.stl:Zone.Identifier
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm_joint_3_convex.stl
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm2_convex.dae
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/meshes/youbot_arm/arm2_convex.stl
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/ament_index/resource_index/package_run_dependencies/youbot_description
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/ament_index/resource_index/parent_prefix_path/youbot_description
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/environment/ament_prefix_path.sh
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/environment/path.sh
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/environment/path.dsv
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/local_setup.bash
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/local_setup.sh
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/local_setup.zsh
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/local_setup.dsv
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/package.dsv
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/ament_index/resource_index/packages/youbot_description
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/cmake/youbot_descriptionConfig.cmake
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/cmake/youbot_descriptionConfig-version.cmake
+-- Installing: /home/ctruillet/youbot_description/install/youbot_description/share/youbot_description/package.xml
