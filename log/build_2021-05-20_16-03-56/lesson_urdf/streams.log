@@ -1,5 +1,0 @@
-[0.036s] Invoking command in '/home/ctruillet/lesson_urdf/build/lesson_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ctruillet/ros2_control/install/ros2controlcli:/home/ctruillet/ros2_control/install/ros2_control_test_nodes:/home/ctruillet/ws_moveit2/install/ros2controlcli:/opt/ros/foxy /usr/bin/cmake --build /home/ctruillet/lesson_urdf/build/lesson_urdf -- -j4 -l4
-[0.078s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
-[0.130s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
-[0.269s] make: *** [Makefile:222: cmake_check_build_system] Interrupt
-[0.271s] Invoked command in '/home/ctruillet/lesson_urdf/build/lesson_urdf' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ctruillet/ros2_control/install/ros2controlcli:/home/ctruillet/ros2_control/install/ros2_control_test_nodes:/home/ctruillet/ws_moveit2/install/ros2controlcli:/opt/ros/foxy /usr/bin/cmake --build /home/ctruillet/lesson_urdf/build/lesson_urdf -- -j4 -l4
