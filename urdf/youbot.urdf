@@ -8,11 +8,11 @@
     <child link="base_footprint" />
   </joint>
 
-  <gazebo>
+  <!--<gazebo>
     <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
       <parameters>config/youbot.yaml</parameters>
     </plugin>
-  </gazebo>
+  </gazebo>-->
 
   <link name="base_footprint">
     <inertial>
