@@ -35,11 +35,19 @@ This Youbot robot is a modified version of the [Youbot](http://www.youbot-store.
 ![](youbot.png)
 
 
-## Launch
+## Launch Rviz
 ```sh
 cd youbot_description
 colcon build
 ros2 launch youbot_description view_robot_launch.py
+```
+
+## Launch Gazebo
+```sh
+cd youbot_description
+colcon build
+export GAZEBO_MODEL_PATH=$PWD/sdf
+ros2 launch youbot_description gazebo.py
 ```
 
 

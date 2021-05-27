@@ -1,0 +1,23 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    joint_trajectory_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    joint_state_controller:
+      type: joint_state_controller/JointStateController
+
+joint_trajectory_controller:
+  ros__parameters:
+    joints:
+      - arm_joint_1
+      - arm_joint_2
+      - arm_joint_3
+      - arm_joint_4
+      - arm_joint_5
+      - wheel_joint_bl
+      - wheel_joint_br
+      - wheel_joint_fl
+      - wheel_joint_fr
+    interface_name: position
