@@ -6,7 +6,7 @@ from launch.actions import ExecuteProcess
 def generate_launch_description():
        return LaunchDescription([
            ExecuteProcess(
-               cmd=['gazebo', '--verbose', 'sdf/world.sdf'],
+               cmd=['gazebo', '--verbose', 'sdf/world.sdf', '-s libgazebo_ros_factory.so'],
                output='screen'
            ),
            Node(

@@ -1,5 +1,12 @@
 <sdf version='1.7'>
   <world name='default'>
+    <plugin name="gazebo_ros_state" filename="libgazebo_ros_state.so">
+      <ros>
+        <namespace>/gazebo</namespace>
+      </ros>
+      <update_rate>1.0</update_rate>
+    </plugin>
+
     <light name='sun' type='directional'>
       <cast_shadows>1</cast_shadows>
       <pose>0 0 10 0 -0 0</pose>
@@ -98,7 +105,7 @@
                 <namespace>/youbot</namespace>
                 <!-- <argument>joint_states:=joint_states_demo</argument> -->
               </ros>
-              <update_rate>2</update_rate>
+              <update_rate>100</update_rate>
               <joint_name>arm_joint_1</joint_name>
               <joint_name>arm_joint_2</joint_name>
               <joint_name>arm_joint_3</joint_name>
@@ -109,6 +116,13 @@
               <joint_name>wheel_joint_fl</joint_name>
               <joint_name>wheel_joint_fr</joint_name>
             </plugin>
+            <!-- <plugin name="gazebo_ros_joint_pose_trajectory"
+                    filename="libgazebo_ros_joint_pose_trajectory.so">
+              <ros>
+                <namespace>/youbot</namespace>
+              </ros>
+              <update_rate>2</update_rate>
+            </plugin> -->
         </include>
     </model>
 

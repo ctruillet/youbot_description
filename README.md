@@ -50,5 +50,10 @@ export GAZEBO_MODEL_PATH=$PWD/sdf
 ros2 launch youbot_description gazebo.py
 ```
 
-
+## Examples
+### Move joint (Gazebo)
+```sh
+# launch gazebo
+ros2 topic pub /youbot/set_joint_trajectory trajectory_msgs/msg/JointTrajectory "{header: {frame_id: world}, joint_names: {youbot::arm_joint_2}, points: [{positions: {1.0}}]}"
+```
 

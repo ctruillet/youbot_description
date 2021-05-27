@@ -218,7 +218,7 @@
 				<plugin name='gazebo_ros_base_laser_front_controller'
 				        filename='libgazebo_ros_ray_sensor.so'>
 					<ros>
-						<namespace>base_scan</namespace>
+						<namespace>/youbot</namespace>
 						<argument>--ros-args --remap ~/out:=scan</argument>
 					</ros>
 					<output_type>sensor_msgs/LaserScan</output_type>
@@ -1177,6 +1177,13 @@
 			<robotNamespace>/youbot</robotNamespace>
 		</plugin> -->
 		<static>0</static>
+		<plugin name="gazebo_ros_joint_pose_trajectory" filename="libgazebo_ros_joint_pose_trajectory.so">
+			<ros>
+				<namespace>/youbot</namespace>
+			</ros>
+			<update_rate>100</update_rate>
+		</plugin>
+
 		<plugin name='base_controller'
 		        filename='libgazebo_ros_planar_move.so'>
 			<ros>	
