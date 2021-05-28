@@ -32,7 +32,7 @@ root Link: world has 1 child(ren)
 This Youbot robot is a modified version of the [Youbot](http://www.youbot-store.com/) sold by Kuka until 2016 as part of an internship with the University of [Ostfalia](https://www.ostfalia.de/cms/de/i/), Wolfenbüttel.
 
 
-![](youbot.png)
+![](misc/youbot.png)
 
 
 ## Launch Rviz
