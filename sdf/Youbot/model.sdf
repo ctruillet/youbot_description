@@ -1,7 +1,61 @@
 <?xml version="1.0"?>
 <sdf version='1.6'>
 	<model name='youbot'>
-		<pose>0 0 0.1 0 0 0</pose>
+		
+		<!-- In order to move the youbot without use wheels-->
+		<link name="world" >
+			<!-- <pose>0 0 0.1 0 0 0</pose> -->
+		</link>
+
+		<link name="virtual_link_xy" />
+
+		<joint name="virtual_joint_x" type="prismatic">
+			<axis>
+				<xyz>1 0 0</xyz>
+				<limit>
+					<lower>-5</lower>
+					<upper>5</upper>
+					<effort>1</effort>
+					<velocity>1</velocity>
+				</limit>
+			</axis>
+
+			<parent>world</parent>
+			<child>virtual_link_xy</child>
+			
+		</joint>
+
+		<link name="virtual_link_yz" />
+
+		<joint name="virtual_joint_y" type="prismatic">
+			<axis>
+				<xyz>0 1 0</xyz>
+				<limit>
+					<lower>-5</lower>
+					<upper>5</upper>
+					<effort>1</effort>
+					<velocity>1</velocity>
+				</limit>
+			</axis>
+			<parent>virtual_link_xy</parent>
+			<child>virtual_link_yz</child>
+		</joint>
+
+		<joint name="virtual_joint_z" type="revolute">
+			<axis>
+				<xyz>0 0 1</xyz>
+				<limit>
+					<lower>-128</lower>
+					<upper>128</upper>
+					<effort>1</effort>
+					<velocity>1</velocity>
+				</limit>
+			</axis>
+			<parent>virtual_link_yz</parent>
+			<child>base_footprint</child>
+		</joint>
+
+		
 		<link name='base_footprint'>
 			<pose frame=''>0 0 0 0 0 0</pose>
 			<inertial>

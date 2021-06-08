@@ -47,7 +47,7 @@ ros2 launch youbot_description rviz.launch.py
 cd youbot_description
 colcon build
 export GAZEBO_MODEL_PATH=$PWD/sdf
-ros2 launch youbot_description gazebo.py
+ros2 launch youbot_description gazebo.launch.py
 ```
 
 ## Examples

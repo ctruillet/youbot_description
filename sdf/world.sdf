@@ -106,6 +106,9 @@
                 <!-- <argument>joint_states:=joint_states_demo</argument> -->
               </ros>
               <update_rate>100</update_rate>
+              <joint_name>virtual_joint_x</joint_name>
+              <joint_name>virtual_joint_y</joint_name>
+              <joint_name>virtual_joint_z</joint_name>
               <joint_name>arm_joint_1</joint_name>
               <joint_name>arm_joint_2</joint_name>
               <joint_name>arm_joint_3</joint_name>
