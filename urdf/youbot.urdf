@@ -1,10 +1,30 @@
 <?xml version="1.0" ?>
 <robot name="youbot">
 
+  <!-- In order to move the youbot without use wheels-->
   <link name="world" />
+  <link name="virtual_link_xy" />
 
-  <joint name="fixed" type="fixed"> 
+  <joint name="virtual_joint_x" type="prismatic">
+    <axis xyz="1 0 0"/>
     <parent link="world" />
+    <child link="virtual_link_xy" />
+    <limit effort="1" lower="-5" upper="5" velocity="1"/>
+  </joint>
+
+  <link name="virtual_link_yz" />
+
+  <joint name="virtual_joint_y" type="prismatic">
+    <axis xyz="0 1 0"/>
+    <parent link="virtual_link_xy" />
+    <child link="virtual_link_yz" />
+    <limit effort="1" lower="-5" upper="5" velocity="1"/>
+  </joint>
+
+  <joint name="virtual_joint_z" type="continuous">
+    <axis xyz="0 0 1"/>
+    <origin xyz="0 0 0.1"/> 
+    <parent link="virtual_link_yz" />
     <child link="base_footprint" />
   </joint>
 
